@@ -1,0 +1,19 @@
+.splide {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.splide__slide {
+    display: flex;
+    align-items: center;
+}
+
+.splide img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.splide__pagination__page{
+    margin-bottom: 100px!important;
+}

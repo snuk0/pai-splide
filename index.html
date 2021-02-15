@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <title>Splide</title>
+</head>
+<body>
+    <div id="splide" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+                <img src="imgs/1.jpg" height="60%">
+            </li>
+            <li class="splide__slide">
+                <img src="imgs/2.jpg" height="60%">
+            </li>
+            <li class="splide__slide">
+                <img src="imgs/3.jpg" height="60%">
+            </li>
+          </ul>
+        </div>
+      </div>
+<script src="splide.min.js"></script>
+<script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+		new Splide( '.splide' ).mount();
+	} );
+</script>
+</body>
+</html>
