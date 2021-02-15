@@ -15,5 +15,6 @@
 }
 
 .splide__pagination__page{
-    margin-bottom: 100px!important;
+    margin-bottom: 30px!important;
+    background: black!important;
 }
